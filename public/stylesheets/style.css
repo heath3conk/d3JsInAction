@@ -1,0 +1,19 @@
+.inactive, .tentative {
+    stroke: darkgray;
+    stroke-width: 2px;
+    stroke-dasharray: 5 5;
+  }
+  .tentative {
+    opacity: .6;
+  }
+  .active {
+    stroke: black;
+    stroke-width: 4px;
+    stroke-dasharray: 1;
+  }
+  circle {
+    fill: purple;
+  }
+  rect {
+    fill: darkgray;
+  }
